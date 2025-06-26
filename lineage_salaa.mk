@@ -23,11 +23,14 @@ PRODUCT_MODEL := realme 7/Narzo 20 Pro/Narzo 30 4G
 
 # RisingOS flags
 PRODUCT_NO_CAMERA := false
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
-TARGET_ENABLE_PIXEL_FEATURES := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 RISING_MAINTAINER := αиѕн
 PRODUCT_BUILD_PROP_OVERRIDES += \
     RisingMaintainer="αиѕн"				
+
+# CORE build flags
+WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 
