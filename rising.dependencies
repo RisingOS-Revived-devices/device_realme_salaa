@@ -2,7 +2,7 @@
   {
     "remote"      : "devices",
     "repository"  : "vendor_realme_salaa",
-    "branch"      : "fifteen",
+    "branch"      : "sixteen",
     "target_path" : "vendor/realme/salaa"
   },
   {
@@ -14,7 +14,7 @@
   {
     "remote"      : "devices",
     "repository"  : "kernel_realme_salaa",
-    "branch"      : "fifteen",
+    "branch"      : "sixteen",
     "target_path" : "kernel/realme/mt6785"
   },
   {
