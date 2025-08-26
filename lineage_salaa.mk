@@ -23,7 +23,6 @@ PRODUCT_MODEL := realme 7/Narzo 20 Pro/Narzo 30 4G
 
 # RisingOS flags
 PRODUCT_NO_CAMERA := false
-TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 RISING_MAINTAINER := αиѕн
 PRODUCT_BUILD_PROP_OVERRIDES += \
     RisingMaintainer="αиѕн"				
