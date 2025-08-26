@@ -27,9 +27,8 @@ RISING_MAINTAINER := αиѕн
 PRODUCT_BUILD_PROP_OVERRIDES += \
     RisingMaintainer="αиѕн"				
 
-# CORE build flags
+# GAPPS
 WITH_GMS := true
-TARGET_USES_PICO_GAPPS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 
